@@ -1,0 +1,24 @@
+https://docs.docker.com/engine/install/debian/#install-using-the-repository
+
+Docker debian installation
+
+https://stackoverflow.com/questions/49397435/docker-start-failed-because-etc-fstab-not-found
+
+############
+https://patrickwu.space/2021/03/09/wsl-solution-to-native-docker-daemon-not-starting/
+
+/usr/bin/dockerd
+
+INFO[2022-01-13T19:19:22.287933500-06:00] stopping healthcheck following graceful shutdown  module=libcontainerd
+failed to start daemon: Error initializing network controller: error obtaining controller instance: unable to add return rule in DOCKER-ISOLATION-STAGE-1 chain:  (iptables failed: iptables --wait -A DOCKER-ISOLATION-STAGE-1 -j RETURN: iptables v1.8.7 (nf_tables):  RULE_APPEND failed (No such file or directory): rule in chain DOCKER-ISOLATION-STAGE-1
+
+update-alternatives --config iptables
+select 1
+############
+
+
+docker run -p 0.0.0.0:8080:255 --name py3 -it py3:1.0.1
+http://172.27.189.102:8080/students
+
+
+docker cp __init__.py f6c94c630a57:/home/nginx_API

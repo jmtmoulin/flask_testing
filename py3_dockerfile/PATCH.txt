@@ -1,0 +1,8 @@
+curl -XPATCH "http://172.30.220.114:8080/students/1" -vv -H 'Content-Type: application/json' -d'{
+"first_name": "Scarlett",
+"last_name": "Evans",
+"date_of_birth": "2010-05-01",
+"grade": 9,
+"phone": "+11111111000",
+"email": "scarlet.updated@email.com"
+}'

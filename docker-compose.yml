@@ -1,0 +1,8 @@
+services:
+  flask:
+    build: ./py3_dockerfile
+    image: py3:1.0.1
+    ports:
+      - "8080:255"
+    volumes:
+      - ./py3_dockerfile:/home/nginx_API
