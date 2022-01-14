@@ -157,12 +157,12 @@ if __name__ == "__main__":
 # python3 -m pip install flask-login
 # python3 -m pip install flask-sqlalchemy
 # https://flask-httpauth.readthedocs.io/en/latest/
-# curl -XGET "https://cernccwaam01:255/" -u 'jacob:moulin' --cacert /home/jm054897/HEARST/cert.pem  --key /home/jm054897/HEARST/cert.key -k
-# curl -XPOST "https://cernccwaam01:255/post_json" -u 'jacob:moulin' --cacert /home/jm054897/HEARST/cert.pem  --key /home/jm054897/HEARST/cert.key -k -vv -H 'Content-Type: application/json' -d'{"title": "The Godfather","director": "Francis Ford Coppola","year": 1972 }'
-# curl -XPOST "https://cernccwaam01:255/post_file" -u 'jacob:moulin' --cacert /home/jm054897/HEARST/cert.pem  --key /home/jm054897/HEARST/cert.key -k -F "file=@testing_post_file.txt"
-# curl -XPOST "https://cernccwaam01:255/post_file" -u 'jacob:moulin' --cacert /home/jm054897/HEARST/cert.pem  --key /home/jm054897/HEARST/cert.key -k -F "file=@testing_post_file.txt"
-# curl -XPOST "https://cernccwaam01:255/post_certain_extensions" -u 'jacob:moulin' --cacert /home/jm054897/HEARST/cert.pem  --key /home/jm054897/HEARST/cert.key -k -F "file=@testing_post_file.exe"
-# curl -XPOST "https://cernccwaam01:255/post_if_csv" -u 'jacob:moulin' --cacert /home/jm054897/HEARST/cert.pem  --key /home/jm054897/HEARST/cert.key -k -F "file=@ESD__csv_example_please.csv"
+# curl -XGET "https://hostname:255/" -u 'jacob:moulin' --cacert /home/jm054897/HEARST/cert.pem  --key /home/jm054897/HEARST/cert.key -k
+# curl -XPOST "https://hostname:255/post_json" -u 'jacob:moulin' --cacert /home/jm054897/HEARST/cert.pem  --key /home/jm054897/HEARST/cert.key -k -vv -H 'Content-Type: application/json' -d'{"title": "The Godfather","director": "Francis Ford Coppola","year": 1972 }'
+# curl -XPOST "https://hostname:255/post_file" -u 'jacob:moulin' --cacert /home/jm054897/HEARST/cert.pem  --key /home/jm054897/HEARST/cert.key -k -F "file=@testing_post_file.txt"
+# curl -XPOST "https://hostname:255/post_file" -u 'jacob:moulin' --cacert /home/jm054897/HEARST/cert.pem  --key /home/jm054897/HEARST/cert.key -k -F "file=@testing_post_file.txt"
+# curl -XPOST "https://hostname:255/post_certain_extensions" -u 'jacob:moulin' --cacert /home/jm054897/HEARST/cert.pem  --key /home/jm054897/HEARST/cert.key -k -F "file=@testing_post_file.exe"
+# curl -XPOST "https://hostname:255/post_if_csv" -u 'jacob:moulin' --cacert /home/jm054897/HEARST/cert.pem  --key /home/jm054897/HEARST/cert.key -k -F "file=@ESD__csv_example_please.csv"
 # python3 -m venv /home/jm054897/HEARST/bin
 # source /home/jm054897/HEARST/env/bin/activate
 # /home/jm054897/HEARST/env/bin/pip install -r requirements.txt
